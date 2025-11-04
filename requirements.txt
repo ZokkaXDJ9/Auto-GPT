@@ -73,3 +73,5 @@ pytest-mock
 vcrpy @ git+https://github.com/Significant-Gravitas/vcrpy.git@master
 pytest-recording
 pytest-xdist
+starlette>=0.49.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
