@@ -73,3 +73,5 @@ pytest-mock
 vcrpy @ git+https://github.com/Significant-Gravitas/vcrpy.git@master
 pytest-recording
 pytest-xdist
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
